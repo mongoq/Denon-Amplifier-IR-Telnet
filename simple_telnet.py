@@ -26,7 +26,6 @@ def telnet_server():
             if str(data) == str(b'setpon\r\n'):
                 client_socket.sendall(b'Powering Denon Amplifier up ...\r\n')
                 print("Power up!")
-                
             if str(data) == str(b'setpoff\r\n'):
                 client_socket.sendall(b'Powering Denon Amplifier down ...\r\n')
                 print("Power down!")
