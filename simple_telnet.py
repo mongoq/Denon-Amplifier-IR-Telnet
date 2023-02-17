@@ -1,3 +1,5 @@
+# TODO: Connect to Wifi before you run this code !!!
+
 import usocket as socket
 
 def telnet_server():
